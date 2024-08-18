@@ -51,14 +51,14 @@ export const Footer: React.FC = () => {
       {/* Bottom section with privacy links and copyright */}
       <div className="flex flex-row bg-white px-6 py-4 container mx-auto justify-between">
         {/* Privacy, Cookie Policy, and Disclaimer links */}
-        <div className="space-x-3 md:space-x-6 underline">
+        <div className=" text-xs space-x-6 underline">
           <a href="#">Privacy</a>
           <a href="#">Cookieverklaring</a>
           <a href="#">Disclaimer</a>
         </div>
 
         {/* Copyright notice */}
-        <p>© KnusWonen 2024</p>
+        <p className='text-xs'>© KnusWonen 2024</p>
       </div>
     </section>
   );
