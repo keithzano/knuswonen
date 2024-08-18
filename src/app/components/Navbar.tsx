@@ -66,7 +66,7 @@ export const Navbar: React.FC = () => {
                 href={item.href}
                 aria-current={item.current ? 'page' : undefined}
                 className={classNames(
-                  item.current ? 'bg-indigo-900 text-white' : 'text-indigo-900 hover:bg-indigo-700 hover:text-white',
+                   'text-indigo-900 hover:bg-indigo-700 hover:text-white',
                   'rounded-md px-3 py-2 text-base font-medium',
                 )}
               >
