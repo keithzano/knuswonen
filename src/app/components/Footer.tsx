@@ -40,11 +40,10 @@ export const Footer: React.FC = () => {
           {/* Social media and additional contact */}
           <div>
             <h3>Volg ons op onze sociale kanalen</h3>
-            <p>
-              012 - 345 67 89
-              <br />
-              klantenservice@knuswonen.nu
-            </p>
+            <div className='flex flex-row gap-2'>
+              <img src="images/facebook.png" alt=" Facebook " />
+              <img src="images/linkedin.png" alt=" Facebook " />
+            </div> 
           </div>
         </div>
       </div>
