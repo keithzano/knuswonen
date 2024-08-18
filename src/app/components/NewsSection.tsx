@@ -1,6 +1,7 @@
 import React from 'react';
 
 export const NewsSection: React.FC = () => {
+    // New items they could be pulled from another api
   const newsItems = [
     { id: 1, image: 'images/rectangle1.jpg', date: '5 maart 2024', title: 'Telefoonstoring', description: 'Update: Telefoonstoring verholpen', href: 'Lees meer' },
     { id: 2, image: 'images/rectangle2.jpg', date: '17 februari 2024', title: 'Energiebesparing', description: 'KnusWonen werkt hard aan het energiezuiniger maken van...', href: 'Lees meer' },
