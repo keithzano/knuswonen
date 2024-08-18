@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Overlock, Poppins } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+
+const overlock = Overlock({
+  subsets: ['latin'],
+  weight: ['700'], 
+  variable: '--font-overlock', 
+});
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['400', '700'], 
+  variable: '--font-poppins', 
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${overlock.variable} ${poppins.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
