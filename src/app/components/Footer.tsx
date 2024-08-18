@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
           {/* Contact information */}
           <div>
             <h3>Bel of mail ons</h3>
-            <p>
+            <p className='text-wrap break-words '>
               012 - 345 67 89
               <br />
               klantenservice@knuswonen.nu
