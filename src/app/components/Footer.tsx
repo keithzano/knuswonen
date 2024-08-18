@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
       <div className="bg-neutral-200 w-full">
         <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 p-6 md:py-16 gap-6">
           {/* Contact information */}
-          <div>
+          <div className='space-y-3'>
             <h3>Bel of mail ons</h3>
             <p className='text-wrap break-words '>
               012 - 345 67 89
@@ -18,7 +18,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Opening hours */}
-          <div>
+          <div className='space-y-3' >
             <h3>Openingstijden</h3>
             <p>
               Maandag t/m donderdag van 8:30 tot 16:30 uur.
@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Address information */}
-          <div>
+          <div className='space-y-3' >
             <h3>Kom langs op afspraak</h3>
             <p>
               Straatweglaan 123
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Social media and additional contact */}
-          <div>
+          <div className='space-y-3' >
             <h3>Volg ons op onze sociale kanalen</h3>
             <div className='flex flex-row gap-2'>
               <img src="images/facebook.png" alt=" Facebook " />
@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
       {/* Bottom section with privacy links and copyright */}
       <div className="flex flex-row bg-white px-6 py-4 container mx-auto justify-between">
         {/* Privacy, Cookie Policy, and Disclaimer links */}
-        <div className="space-x-6 underline">
+        <div className="space-x-3 md:space-x-6 underline">
           <a href="#">Privacy</a>
           <a href="#">Cookieverklaring</a>
           <a href="#">Disclaimer</a>
